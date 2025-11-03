@@ -6,11 +6,11 @@ const Banner = () => {
     <>
       <section id="banner" className='py-28'>
         <div className="container">
-            <div className="flex justify-between items-center">
+            <div className="sm: flex flex-col lg:flex lg:flex-row justify-between items-center">
                 <div className="max-w-md text-black font-popins">
                     <h1 className="w-md text-6xl leading-22 font-semibold">Find The Best Fashion Style For You</h1>
                     <p className='text-lg pt-9 pb-16'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu, odio pellentesque mattis pulvinar felis. At arcu ornare rhoncus, elementum non viverra. </p>
-                    <div className=''>
+                    <div className='sm:m-10'>
                     <Button1 title="Shop Now"/>
                     </div>
                 </div>

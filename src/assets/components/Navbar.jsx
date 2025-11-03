@@ -4,7 +4,7 @@ import Button from './Button'
 const Navbar = () => {
   return (
     <>
-      <nav className="py-12">
+      <nav className="sm:hidden md:hidden lg:block py-12">
         <div className="container flex justify-between items-center">
           <div className="logo">
             <a href="#"><img src="/logo.png" alt="" /></a>
